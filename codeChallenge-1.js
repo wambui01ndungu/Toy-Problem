@@ -1,6 +1,7 @@
 function getStudentGrade() {
     // Request user input for the student's mark
     const mark = 82;
+
   
     // Convert the user input to a number and check if it is a valid number
     // between 0 and 100
@@ -15,7 +16,7 @@ function getStudentGrade() {
     if (markNumber > 79) {
       grade = "A";
     } else if (markNumber >= 60) {
-      grade = "B";
+      grade = "B";6                                                                                                                                                                                                                                                                                                                                                                                                                            
     } else if (markNumber >= 50) {
       grade = "C";
     } else if (markNumber >= 40) {
@@ -25,6 +26,7 @@ function getStudentGrade() {
     }
   
     // Print the student's grade
+    
     console.log(`The student's grade is: ${grade}`);
   }
   

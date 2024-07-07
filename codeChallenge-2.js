@@ -1,6 +1,6 @@
 function speedDetector(speed){
   if (isNaN(speed)||speed<0){
-    console.log("invalid input, please enter a valid number.");
+    console.log ("invalid input, please enter a valid number.");
     return;
   }
     //speed limit
@@ -15,7 +15,7 @@ function speedDetector(speed){
     let demeritPoints = math.floor((speed-speedLimit)/ kmPerDelimeterPoint);{    console.log("points:"+ derimeterPoints);
   
     //Check if demerit points exceed 12
-    if(demeritPoints > 12)
+    if (demeritPoints > 12)
       console.log ("licence suspended");
     }
     

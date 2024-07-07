@@ -1,4 +1,4 @@
-unction calculateNetSalary(basicSalary, benefits) {
+function calculateNetSalary(basicSalary, benefits) {
     // Constants based on the provided rates
     const payeRates = [
       { min: 0, max: 24000, rate: 10 },
